@@ -8,7 +8,7 @@ We note that we have adapted the code here to run on a single machine in series.
 ## Running the code
 The code here is set up to run on bash-like terminals by the command '. ./run_everything.sh' from the root repo directory. run_everything.sh cds into each folder and produces the figures from scratch. At the end, run_everything.sh will copy all pngs present in the repo to the folder ./all_figs in the root directory.
 
-For the more memory/computationally consuming parts, we have set the default parameters to be smaller/coarser than used for publication. These parameters can be changed in the corresponding "run_all*.sh" files in each sub-directory, where we also denote the parameters used in the manuscript for ease of use as comments. For many of these .sh scripts, we have scan resolution (scan_res) as a parameter. For the main text figures, we use scanning resolutions of either 101, 201, or 301. Setting scan_res to 101 should suffice if one desires a higher resolution for the sake of understanding.
+For the more memory/computationally consuming parts, we have set the default parameters to be smaller/coarser than used for publication. These parameters can be changed in the corresponding "run_all*.sh" files in each sub-directory, where we also denote the parameters used in the manuscript for ease of use as comments. For many of these .sh scripts, we have scan resolution (scan_res) as a parameter. For the main text figures, we use scanning resolutions of either 101, 201, or 301. Setting scan_res to 101 should suffice if one desires a higher resolution for the sake of clarification/understanding.
 
 A test run of run_everything.sh produces the output :
 """Running main text calculations
