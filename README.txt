@@ -2,7 +2,7 @@ This repository corresponds to minimal code to reproduce the main text figures a
 
 This code has been tested on Ubuntu 22.04, and is written to be compatible with UNIX based systems (e.g., slashes in file paths are /, not \ as one has in Windows). For Windows users, we note the existence of Ubuntu on WSL (https://ubuntu.com/wsl), which might allow one to run the code directly using the provided .sh scripts without any OS-related refactoring, such as the backslash convention.
 
-We note that we have adapted the code here to run on a single machine in series. Originally, much of this code was split apart to run as parallel jobs on a compute cluster since many things can be parallelized.
+We note that we have adapted the code here to run on a single machine in series. Originally, much of this code was split apart to run as parallel jobs on a compute cluster.
 
 
 ## Running the code
