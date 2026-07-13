@@ -1,4 +1,4 @@
-This repository corresponds to minimal code to reproduce the main text figures and key appendix figures of "A spatial localizer for electrons in insulators" by Gerhard, H.; Wang, Y.; Cerjan, A.; and Benalcazar, W.
+This repository corresponds to minimal code to reproduce the main text figures and key appendix figures of "A Spatial Localizer for Electrons in Insulators" by Gerhard, H.; Wang, Y.; Cerjan, A.; and Benalcazar, W.
 
 This code has been tested on Ubuntu 22.04 and MacOS 26.5, and is written to be compatible with UNIX based operating systems (e.g., slashes in file paths are /, not \ as one has in Windows). For Windows users, Ubuntu on WSL (https://ubuntu.com/wsl) may allow one to run the code directly using the provided .sh scripts without any OS-related refactoring, such as the backslash convention in file paths.
 
