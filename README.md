@@ -43,6 +43,6 @@ This is accessed via the h5py Python package, but HDF5 often must be separately 
 
 
 ## Runtime information
-Installing the Conda environment and HDF5 should take ~5 minutes. Running the code itself takes ~30 minutes.
+Installing the Conda environment and HDF5 should take <5 minutes if using package managers such as apt (Ubuntu) or brew (Mac). Running the code itself takes ~10 minutes on an Ubuntu 22.04 desktop using environmnt.yml and ~40 minutes on a MacOS 26.5 laptop using environment_general_OS.yml.
 
 
